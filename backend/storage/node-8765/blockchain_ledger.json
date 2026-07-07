@@ -1,0 +1,14 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 0,
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "data": {
+        "type": "genesis",
+        "description": "Shared genesis block for lightweight P2P ZIP integrity blockchain"
+      },
+      "block_hash": "a41579322cba26beeee55a5eecd1f30eb107b3933fe6e4a767420f78eed6f64f"
+    }
+  ]
+}

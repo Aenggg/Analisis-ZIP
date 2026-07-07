@@ -1,0 +1,39 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": 0,
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "data": {
+        "type": "genesis",
+        "description": "Shared genesis block for lightweight P2P ZIP integrity blockchain"
+      },
+      "block_hash": "a41579322cba26beeee55a5eecd1f30eb107b3933fe6e4a767420f78eed6f64f"
+    },
+    {
+      "index": 1,
+      "timestamp": 1783272783.8987925,
+      "previous_hash": "a41579322cba26beeee55a5eecd1f30eb107b3933fe6e4a767420f78eed6f64f",
+      "data": {
+        "file_name": "test.zip",
+        "file_hash": "df88b8d13c5c73f79d31c065533561fdc724ec88e8bd02d9f7f0d5b108e00c31",
+        "file_size": 2851,
+        "chunk_count": 1,
+        "chunk_hashes": [
+          "df88b8d13c5c73f79d31c065533561fdc724ec88e8bd02d9f7f0d5b108e00c31"
+        ],
+        "chunk_owners": {
+          "0": [
+            "http://127.0.0.1:8000"
+          ]
+        },
+        "owner": "http://127.0.0.1:8000",
+        "merkle_root": "df88b8d13c5c73f79d31c065533561fdc724ec88e8bd02d9f7f0d5b108e00c31",
+        "signature": "3d208a5b64ba8553a76bab3c7f3fbdb5f3166ff54239baa4cc41e77f95cb19db3a2cb35ecdccc161f8dfeb61c4395f63bafa953cc41e7c68fffa36062d969243eea64fc57eea524ec852b62509f43a04b2220022164d02340072d713647a765a3eacb09b212ade6f7a7c5ec22220416c973db3e6e05ff6d6e4b8c13600a1f7ede455b5d330f8554177e7fed0a8898a47f0dcf92a327eebb03dc9c137568216dcee7b05207b1ffde6040f8ba8a79dc697a0e9a5a875d58e4111414cf7979d76f56e80405c29a58f85a7373c35cd7760d1dd0607f6fc713fc4d78c76a11ce56031df64426cdf8371001eb19b1b96c4d61d2be7f15987bed0721c7a0c2d7dcc81c5",
+        "algorithm": "SHA-256",
+        "file_type": "ZIP"
+      },
+      "block_hash": "67093cc81c0164cb1c5fbc3a7f9413b0471ee60f245f446bef6c3b42f66286f0"
+    }
+  ]
+}
